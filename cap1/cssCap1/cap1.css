@@ -29,7 +29,6 @@ h1{
     width:  659px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 a{
     border-radius: 10px;
@@ -49,12 +48,11 @@ a{
     body{
         background-color: black;  
         background-image: url(../image/cap1.jpg);
-        background-position: center, top;
+        background-position: center;
     }
     .texto{
         width: 359px;
         margin-top: 350px;
-        margin-left: 150px;
         background-color: rgba(81, 224, 81, 0.582);
         border-radius: 10px;
         display: flex;
@@ -69,6 +67,34 @@ a{
     a:hover{
       color: black;
     }
+}
+@media (max-width : 550px){
+
+    body{
+        background-color: black;  
+        background-image: url(../image/cap1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container-texto{
+        margin-bottom: 200px;
+        width: 100%;
+        
+    }
+    .texto{
+        width: 180px;
+        margin-top: 390px;
+        background-color: rgba(81, 224, 81, 0.582);
+        border-radius: 10px;
+  
+    }
+    .link{
+        margin-top: 49px;
+        width:  100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
 }
 
 

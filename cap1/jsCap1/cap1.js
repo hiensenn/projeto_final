@@ -7,11 +7,13 @@ function escolha(movimento)
     if(movimento == 1)
     {
         document.write(
-                `    
-                <div class="texto">
-                <h1>
-                você esqueceu suas flechas e foi atacado pelos zumbies.
-                </h1>
+                ` 
+                <div class="container-texo">   
+                    <div class="texto">
+                        <h1>
+                            você esqueceu suas flechas e foi atacado pelos zumbies.
+                        </h1>
+                    </div>
                 </div>
 
                 <div class="link">
