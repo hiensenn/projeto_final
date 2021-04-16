@@ -9,12 +9,15 @@ function escolha(movimento)
         document.write(
             `
             
-                 <h1>
-                 seus companheiros de batalha lhe ouvem e escolhem tentar até suas últimas forças.
-                 </h1>
-                 <div class="link">
-                 <a href="../cap4/cap4.html"> continuar </a>
-                 </div>
+                <div class="texto">
+                    <h1>
+                    seus companheiros de batalha lhe ouvem e escolhem tentar até suas últimas forças.
+                     </h1>
+                </div>
+
+                <div class="link">
+                    <a href="../cap4/cap4.html"> continuar </a>
+                </div>
             
             `
         );
@@ -24,14 +27,16 @@ function escolha(movimento)
         document.write(
             `
             
-                 <h1>
-                 você e seu exército se rendem e são devorador por zumbies 
-                 </h1>
+                <div class="texto">
+                    <h1>
+                         você e seu exército se rendem e são devorador por zumbies 
+                    </h1>
+                </div>
         
-                 <div class="link">
-                 <a href="../index.html"> voltar </a>
-                 </div>
-            
+                <div class="link">
+                    <a href="../index.html"> voltar </a>
+                </div>
+                
             `
         );
     }

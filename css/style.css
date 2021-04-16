@@ -21,7 +21,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-h1{
+.nomeJogo h1{
     color: rgb(116, 116, 61);
     font-family: medieval;
     letter-spacing: 15px;
@@ -33,6 +33,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .text-container {
     width : 100%;
     display: flex;
@@ -44,6 +45,7 @@ main {
 
 }
 .texto h1{
+    background-color: rgba(73, 72, 72, 0.87);
     color: rgb(106, 119, 61);
     font-size: 42px;
     font-family: medieval;

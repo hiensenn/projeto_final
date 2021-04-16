@@ -8,15 +8,19 @@ function escolha(movimento)
     {
         document.write(
             `
-            
-                <h1>
-                     você ganhas novas armaduras e está pronto para a guerra.
-                </h1>
+
+                <div class="texto">
+                     <h1>
+                         você ganhas novas armaduras e está pronto para a guerra.
+                     </h1>
+                </div>
 
                 <div class="link">
-
                         <a href="../cap3/cap3.html"> continuar </a>
                 </div>
+
+
+                
             
             `
         );

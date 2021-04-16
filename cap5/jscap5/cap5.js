@@ -9,14 +9,16 @@ function escolha(movimento)
         document.write(
             `
             
-                 <h1>
-                 é uma boa escolha, Resillium está aos poucos se reerguendo e voltando aos seus mais lindos dias,
-                 mas será se foi o suficinte?.
-                 </h1>
-                
-                 <div class="link">
-                 <a href="../cap6/cap6.html"> continuar </a>
-                 </div>
+                <div class="texto">
+                    <h1>
+                        é uma boa escolha, Resillium está aos poucos se reerguendo e voltando aos seus mais lindos dias,
+                        mas será se foi o suficinte?.
+                    </h1>
+                </div>
+
+                <div class="link">
+                    <a href="../cap6/cap6.html"> continuar </a>
+                </div>
             
             `
         );
@@ -26,15 +28,18 @@ function escolha(movimento)
         document.write(
             `
             
-                 <h1>
-                    nunca confie em um genocida, só haverá mortes.
-                 </h1>
+                 <div class="texto">
+                    <h1>
+                         Nunca deixe um genocída chegar ao poder.
+                     </h1>
+                 </div>
         
                  
                  <div class="link">
                  <a href="../index.html"> voltar </a>
                  </div>
             
+               
             `
         );
     }

@@ -7,12 +7,14 @@ function escolha(movimento)
     if(movimento == 1)
     {
         document.write(
-            `
+            `   
+                <div class="texto">
+                    <h1>
+                        é uma boa escolha, Resillium está aos poucos se reerguendo e voltando aos seus mais lindos dias,
+                        mas será se foi o suficinte?
+                    </h1>
+                </div>
             
-                 <h1>
-                 é uma boa escolha, Resillium está aos poucos se reerguendo e voltando aos seus mais lindos dias,
-                 mas será se foi o suficinte?.
-                 </h1>
                 
                  <div class="link">
                  <a href="../index.html"> continuar </a>
@@ -25,14 +27,16 @@ function escolha(movimento)
     {
         document.write(
             `
-            
-                 <h1>
-                    nunca confie em um genocida, só haverá mortes.
-                 </h1>
+                 <div class="texto">
+                     <h1>
+                         nunca confie em um genocida, só haverá mortes.
+                     </h1>
+                 </div>
+                
         
                  
                  <div class="link">
-                 <a href="../index.html"> voltar </a>
+                     <a href="../index.html"> voltar </a>
                  </div>
             
             `

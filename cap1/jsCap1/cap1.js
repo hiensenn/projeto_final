@@ -7,27 +7,37 @@ function escolha(movimento)
     if(movimento == 1)
     {
         document.write(
-            `    <h1>
-                    você esqueceu suas flechas e foi atacado pelos zumbies.
-                 </h1>
-        
-                 <div class="link">
-                    <a href="../index.html"> voltar </a>
-                  </div>
-            `
+                `    
+                <div class="texto">
+                <h1>
+                você esqueceu suas flechas e foi atacado pelos zumbies.
+                </h1>
+                </div>
+
+                <div class="link">
+                <a href="../index.html"> aceitar </a>
+                </div>
+                    
+                `
         );
     }
         else if(movimento == 2) 
     {
         document.write(
             `
+
+                 <div class="texto">
                  <h1>
                  você enxerga os zumbies e logo atira contra eles, os matando.
                  </h1>
+                 </div>
 
-                <div class="link">
-                    <a href="../cap2/cap2.html"> continuar </a>
-                </div>
+                 <div class="link">
+                 <a href="../cap2/cap2.html"> continuar </a>
+                 </div>
+                 
+
+                 
             `
         );
     }

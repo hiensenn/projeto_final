@@ -8,13 +8,14 @@ function escolha(movimento)
     {
         document.write(
             `
-            
-                <h1>
-                     você encontra o esconderijo de izoton e envia um sinal aos guerreiros.
-                </h1>
+                 <div class="texto">
+                     <h1>
+                          você encontra o esconderijo de izoton e envia um sinal aos guerreiros.
+                     </h1>
+                 </div>
+               
 
                 <div class="link">
-
                         <a href="../ladino/cap3ladino.html"> continuar </a>
                 </div>
             
@@ -24,11 +25,14 @@ function escolha(movimento)
         else if(movimento == 2) 
     {
         document.write(
-            `
+            `   
+                 <div class="texto">
+                      <h1>
+                          Você entendeu apenas agora que se tratava de um zumbie, foi mordido
+                          e se contaminou.
+                     </h1>
+                 </div>
             
-                 <h1>
-                    Você entendeu apenas agora que se tratava de um zumbie, foi mordido
-                    e se contaminou.
         
                 <div class="link">
                 <a href="../index.html"> voltar </a>

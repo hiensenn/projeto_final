@@ -8,9 +8,12 @@ function escolha(movimento)
     {
         document.write(
             `
-            
-                 <h1>
-                 Com sua força extrema de ferreiro, você acerta um golpe na cabeça do senhor o matando na hora.
+                <div class="texto">
+                    <h1>
+                          Com sua força extrema de ferreiro, você acerta um golpe na cabeça do senhor o matando na hora.
+                    </h1>
+                </div>
+
         
                  <div class="link">
                     <a href="../ferreiro/cap3ferreiro.html"> continuar </a>
@@ -23,11 +26,13 @@ function escolha(movimento)
     {
         document.write(
             `
-            
-                 <h1>
-                  você deixa o martelo cair e acaba sendo mordido
-                 </h1>
 
+                 <div class="texto">
+                     <h1>
+                          você deixa o martelo cair e acaba sendo mordido
+                     </h1>
+                 </div>
+                
                 <div class="link">
                     <a href="../index.html""> voltar </a>
                 </div>

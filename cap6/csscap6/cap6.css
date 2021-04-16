@@ -44,13 +44,16 @@ body{
     height: 30px;
     text-decoration: none;
     padding: 4px;
-    color: red;
+    color: rgba(110, 110, 110, 0.979);
     font-weight: bolder;
     font-size: 20px;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(44, 37, 27);
     display: flex;
     justify-content: center;
     border-radius: 20px;
     font-family: medieval;
     letter-spacing: 5px;
+}
+.final a:hover{
+    color: whitesmoke ;
 }
