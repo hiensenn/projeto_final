@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: medieval;
+    src: url(../font/a_agressive_winter/aAgressiveWinter.ttf);
+}
+body{
+    background-image: url(../image/Personagem.jpg);
+}
+
+.escolher-container{
+    width: 100%;
+    
+}
+.escolher-container h1{
+    color: white;
+    font-family: medieval;
+    font-size: 29px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    letter-spacing: 5px;
+
+}
+.escolher-container ul{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style: none;
+}
+.escolher-container ul li{
+    display: flex;
+  
+}
+.escolher-container ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: medieval;
+    color: khaki;
+}
+.escolher-container ul li a:hover{
+    color: rgb(207, 193, 64) ;
+}

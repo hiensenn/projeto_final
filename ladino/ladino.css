@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: medieval;
+    src: url(../font/a_agressive_winter/aAgressiveWinter.ttf);
+}
+body{
+    background-image: black;
+    width: 100%;
+    height: auto;
+    background-image: url(../image/bggeral2.jpeg);
+    background-size: cover;
+}
+.conteudo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;    
+}
+.imagem {
+    margin-top: 50px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.texto h2{
+    width: 70%;
+    font-variant: small-caps;
+    color: rgb(82, 77, 77);
+    font-weight: bolder;
+   
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn ul{
+    width: 200px;
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+    background-color: rgb(161, 52, 52, 0.5);
+    border-radius: 20px;
+    border: none;
+}  
+.btn ul:hover{
+    background-color: rgb(161, 52, 52,);
+} 
+
+.btn ul li a{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    font-family: medieval;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.btn ul li a:hover{
+    color: black;
+}
+.btn ul:hover{
+    background-color: rgb(161, 52, 52,);
+} 
+
+.btn ul li a{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    font-family: medieval;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.btn ul li a:hover{
+    color: black;
+}

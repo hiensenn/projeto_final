@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: medieval;
+    src: url(../font/a_agressive_winter/aAgressiveWinter.ttf);
+}
+body{
+    width: 100%;
+    background-color: black;
+    background-image: url(../image/end.jpg);
+}
+.final{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.final h1{
+    width: 100%;
+    margin-top: 333px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-family: medieval;
+}
+.final p{
+    color: red;
+    font-weight: bolder;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+.retornar{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.final a{
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    padding: 4px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: medieval;
+    letter-spacing: 5px;
+}
