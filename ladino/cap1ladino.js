@@ -1,4 +1,4 @@
-var  valor = prompt(" você você um sonhor de costas que parece estar atordoado,  como age?  \n 1 - olá posso ajudar em alguma coisa?. \n 2 - para encostar no Sr. e vira-lo");
+var  valor = prompt(" você vê um velho de costas que parece estar atordoado,  como age?  \n 1 - olá posso ajudar em alguma coisa?. \n 2 - para encostar no Sr. e vira-lo");
 
 escolha(valor);
 
