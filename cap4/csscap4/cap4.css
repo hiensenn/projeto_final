@@ -24,7 +24,7 @@ h1{
     text-align: center;
 }
 .link{
-    margin-top: 50px;
+    margin-top: 200px;
     width:  100%;
     display: flex;
     justify-content: space-around;
@@ -43,29 +43,4 @@ a{
 }
 a:hover{
     color: black;
-}
-@media (max-width : 700px){
-    body{
-       background-color: black;  
-       background-image: url(../image/cap4.jpg);
-       background-position: center;
-   }
-   .texto{
-       width: 359px;
-       margin-top: 350px;
-       margin-left: 150px;
-       border-radius: 10px;
-       display: flex;
-       justify-content: space-around;
-   }
-   h1{
-   
-       text-align: center;
-   }
-   a{
-       color: black;
-   }
-   a:hover{
-       color: rgba(22, 22, 22, 0.705);
-   }
 }

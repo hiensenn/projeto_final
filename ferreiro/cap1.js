@@ -12,7 +12,7 @@ function escolha(movimento)
                  <div class="texto">
                      <h1>
                      Ao encostar no ombro do senhor, ele se vira rapidamente para trás e consegue agarrar seu braço. Ele olha diretamente para você
-                     e consegue mordê-lo! Sua visão começa a falhar e você percebe que está desmaiando, sem saber se é pela dor ou algo o contaminou.
+                     e consegue mordê-lo! 
                       </h1>
                   </div>
         
@@ -30,8 +30,8 @@ function escolha(movimento)
             `
                  <div class="texto">
                       <h1>
-                             O senhor vira para você com os olhos brancos, fazendo um sussurro de dor, ele vem em sua direção 
-                             mostrando os dentes! Ele parece querer atacá-lo, então você dá 3 passos para trás e encontra em cima da mesa seu martelo.
+                             O senhor vira para você com os olhos brancos, ele vem em sua direção 
+                             mostrando os dentes! Ele parece querer atacá-lo, você observa seu poderoso martelo.
                       </h1>
                  </div>
              

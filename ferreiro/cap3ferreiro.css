@@ -12,6 +12,7 @@ body{
 }
 .texto{
     width: 100%;
+    margin-top: 20px;
     background-color: rgba(46, 46, 46, 0.795);
     border-radius: 10px;
     display: flex;
@@ -22,7 +23,7 @@ h1{
     text-align: center;
 }
 .link{
-    margin-top: 50px;
+    margin-top: 200px;
     width:  100%;
     display: flex;
     justify-content: space-around;
@@ -41,29 +42,4 @@ a{
 }
 a:hover{
     color: black;
-}
-@media (max-width : 700px){
-    body{
-       background-color: black;  
-       background-image: url(../ferreiro/cap3.jpg);
-       background-position: top;
-   }
-   .texto{
-       width: 359px;
-       margin-top: 50px;
-       margin-left: 150px;
-       border-radius: 10px;
-       display: flex;
-       justify-content: space-around;
-   }
-   h1{
-   
-       text-align: center;
-   }
-   a{
-       color: rgb(175, 170, 170);
-   }
-   a:hover{
-       color: rgba(22, 22, 22, 0.705);
-   }
 }

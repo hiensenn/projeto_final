@@ -10,8 +10,7 @@ function escolha(movimento)
             `
                     <div class="texto">
                          <h1>
-                            Ao encostar no ombro do senhor, ele se vira rapidamente para trás e consegue agarrar seu braço. Ele olha diretamente para você
-                            e consegue mordê-lo! Sua visão começa a falhar e você percebe que está desmaiando, sem saber se é pela dor ou algo o contaminou.
+                            Ao encostar no ombro do senhor, ele se vira rapidamente para trás e consegue agarrar seu braço. você foi mordido!
                          </h1>
                     </div>
                 
@@ -28,8 +27,8 @@ function escolha(movimento)
             `
                  <div class="texto">
                      <h1>
-                          O senhor vira para o ladino com os olhos brancos, fazendo um susurro de dor, ele vem em sua direção mostrando os dentes!
-                          Ele parece querer atacá-lo, então você dá 3 passos para trás e encontra em cima da mesa uma faca.
+                          O senhor vira para o ladino com os olhos brancos,  ele vem em sua direção mostrando os dentes!
+                          então você corta s cabeça dele com sua adaga.
 
                      </h1>
                  </div>
