@@ -11,7 +11,7 @@ function escolha(movimento)
 
                 <div class="texto">
                      <h1>
-                         você ganhas novas armaduras e está pronto para a guerra.
+                         como líder da frota de arqueiros, você ganhou novas armaduras e está pronto para a guerra.
                      </h1>
                 </div>
 

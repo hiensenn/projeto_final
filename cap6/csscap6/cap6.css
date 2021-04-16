@@ -8,30 +8,35 @@
     src: url(../font/a_agressive_winter/aAgressiveWinter.ttf);
 }
 body{
-    width: 100%;
     background-color: black;
     background-image: url(../image/end.jpg);
+    background-position: top;
 }
 .final{
     width: 100%;
-    height: 500px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 .final h1{
     width: 100%;
-    margin-top: 333px;
+    margin-top: 200px;
     color: red;
     display: flex;
     justify-content: center;
     font-family: medieval;
 }
-.final p{
-    color: red;
+.meuNome{
+    width: 100%;
+    text-align: center;
+}
+p{
+    background-color: rgba(133, 30, 30, 0.63);
+    color: rgb(43, 11, 11);
     font-weight: bolder;
+    font-size: 25px;
     margin-top: 130px;
-    display: flex;
-    justify-content: center;
+ 
 }
 .retornar{
     margin-top: 30px;

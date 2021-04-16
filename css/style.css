@@ -3,27 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-@font-face{
-    font-family: medieval;
-    src : url(../font/a_agressive_winter.ttf);
+@font-face {
+    font-family: who;
+    src: url(../font/who_asks_satan/who\ asks\ satan.ttf);
 }
+@font-face {
+    font-family: dhf;
+    src: url(../font/dhf_story_brush/DHF\ Story\ Brush.ttf);
+}
+
 body{
     background-image: url(../image/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size : cover;
-
-
 }
 header{
     width: 100%;
     height: 90px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .nomeJogo h1{
     color: rgb(116, 116, 61);
-    font-family: medieval;
+    font-family: dhf;
+    font-size: 59px;
     letter-spacing: 15px;
     cursor: pointer;
 }
@@ -42,13 +45,14 @@ main {
 .texto{
     width: 900px;
     margin-top: 100px;
-
+    font-family: seagram;
 }
 .texto h1{
-    background-color: rgba(73, 72, 72, 0.87);
-    color: rgb(106, 119, 61);
+    background-color: rgba(41, 41, 41, 0.479) ;
+    border-radius: 10px;
+    color: rgb(134, 156, 52);
     font-size: 42px;
-    font-family: medieval;
+    font-family: monospace;
     line-height: 50px;
     text-align: center;
     font-weight: bolder;
@@ -64,7 +68,7 @@ main {
 .btn{
     width: 200px;
     height: 40px;
-    background-color: rgb(116, 116, 61);
+    background-color: rgba(116, 116, 61, 0.555);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -72,10 +76,9 @@ main {
 .btn-container a{
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 20px;
-    font-family: medieval;
+    font-size: 40px;
+    font-family: who;
     color: black;
-    margin-top: 10px;
 }
 .btn-container a:hover{
     font-weight: bolder;
